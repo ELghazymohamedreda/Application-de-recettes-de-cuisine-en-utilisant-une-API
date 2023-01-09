@@ -1,0 +1,17 @@
+#card{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    margin :3%;
+
+}
+header{
+    background-image: url(image/vegetables-set-left-black-slate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
