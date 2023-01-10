@@ -37,13 +37,16 @@
                 </div>
             </div>
         </header>
-        <select class="form-select" aria-label="Default select example" id="cate">
-
+        <select class="form-select" aria-label="Default select example" id="cat" onchange="afficher_Category(this.value)">
+          <option value="1" >Select Category</option>
         </select>
-        <select class="form-select" aria-label="Default select example" id="reg">
-
+        <select class="form-select" aria-label="Default select example" id="area" onchange="afficher_Area(this.value)" >
+          <option value="1">Select Area</option>
         </select>
         <div id="card"></div>
+
+        
+        
         <div id="modal">
           <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -74,10 +77,10 @@
             </div>
            </div>
         </div>
+
         <nav aria-label="..." class="d-flex justify-content-center">
-            <ul class="pagination pagination-lg" id="lien">
-      
-            </ul>
+          <ul class="pagination pagination-lg" id="pages">
+          </ul>
         </nav>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
