@@ -23,7 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index1.html">Recepts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,10 +37,12 @@
                 </div>
             </div>
         </header>
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Search</span>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" onkeyup="search()" id="sear">
-          </div>
+        <select class="form-select" aria-label="Default select example" id="cate">
+
+        </select>
+        <select class="form-select" aria-label="Default select example" id="reg">
+
+        </select>
         <div id="card"></div>
         <div id="modal">
           <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -72,6 +74,11 @@
             </div>
            </div>
         </div>
+        <nav aria-label="..." class="d-flex justify-content-center">
+            <ul class="pagination pagination-lg" id="lien">
+      
+            </ul>
+        </nav>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
